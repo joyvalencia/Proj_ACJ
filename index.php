@@ -2,7 +2,7 @@
        <?php
 
             $frase1="Me gustan las manzanas"; //Ali
-            $frase2="Los gatos dicen miau";
+            $frase2="Los gatos dicen miau"; //Cristina
             $frase3;
 
             echo $frase1;
