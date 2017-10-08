@@ -12,18 +12,13 @@ and open the template in the editor.
     <body>
        <?php
 
-            $frase = "Sóc una frase";
-            echo "<p>El primer caràcter és $frase[0]<br/>"; //Mostrarà el cràcter "S"
-            echo "El cinqué caràcter és $frase[5]<br/>"; //Mostrarà el cràcter "u"
+            $frase1;
+            $frase2;
+            $frase3;
 
-           /*La funció strlen("cadena") ens retorna la longitud d'una cadena, 
-            *és a dir, la quantitat de caràcters que té la cadena tenint en 
-            *compte que també contabilitza el final de línia com un caràcter.*/
-
-            $longitud = strlen($frase); //Longitud $frase
-            echo "La longitud de la frase és $longitud<br/>";
-            $ultimCaracter = $frase[$longitud-1]; //Mostrarà el caràcter "e"
-            echo "L'últim caràcter és $ultimCaracter<br/>";
-          ?>
+            echo $frase1;
+            echo $frase2;
+            echo $frase3;
+                      ?>
     </body>
 </html>
