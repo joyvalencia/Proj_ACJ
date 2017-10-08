@@ -1,7 +1,7 @@
 
        <?php
 
-            $frase1="Me gustan las manzanas";
+            $frase1="Me gustan las manzanas"; //Ali
             $frase2;
             $frase3;
 
